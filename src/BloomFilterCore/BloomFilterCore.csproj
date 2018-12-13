@@ -5,6 +5,16 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Company>Giovanni Galbo</Company>
     <Authors>Giovanni Galbo,Graham Henry</Authors>
+    <Version>1.0.1</Version>
+    <Description>A Bloom Filter is a probabalistic data structure that Implements the Add() and Contains() methods in a memory efficient manner when compared to the more traditional Hash Set. However, the Bloom Filter has some draw backs:
+
+It will sometimes indicate that an element is in the set when it isn't. The False Positive rate can be decreased by using more memory.
+
+The capacity of the Bloom Filter is fixed at creation time. (You can add more elements than the target capacity, but the False Positive rate continues to increase thereafter).</Description>
+    <PackageProjectUrl>https://github.com/giometrix/BloomFilterCore</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/giometrix/BloomFilterCore</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>bloom-filter bloomfilter bloom</PackageTags>
   </PropertyGroup>
 
 </Project>
